@@ -1,0 +1,64 @@
+{
+  "students": [
+    {
+      "StudentID": 1,
+      "Name": "Alice Johnson",
+      "Email": "alice.johnson@example.com",
+      "Major": "Computer Science"
+    },
+    {
+      "StudentID": 2,
+      "Name": "Bob Smith",
+      "Email": "bob.smith@example.com",
+      "Major": "Mathematics"
+    },
+    {
+      "StudentID": 3,
+      "Name": "Charlie Brown",
+      "Email": "charlie.brown@example.com",
+      "Major": "Physics"
+    }
+  ],
+  "books": [
+    {
+      "BookID": 1,
+      "Title": "Introduction to Algorithms",
+      "Author": "Thomas H. Cormen",
+      "ISBN": "978-0262033848",
+      "Available": true
+    },
+    {
+      "BookID": 2,
+      "Title": "Clean Code",
+      "Author": "Robert C. Martin",
+      "ISBN": "978-0132350884",
+      "Available": false
+    },
+    {
+      "BookID": 3,
+      "Title": "The Pragmatic Programmer",
+      "Author": "Andrew Hunt",
+      "ISBN": "978-0135957059",
+      "Available": true
+    }
+  ],
+  "loans": [
+    {
+      "LoanID": 1,
+      "StudentID": 2,
+      "BookID": 2,
+      "LoanDate": "2025-11-15",
+      "DueDate": "2025-12-15",
+      "ReturnDate": null
+    },
+    {
+      "LoanID": 2,
+      "StudentID": 1,
+      "BookID": 1,
+      "LoanDate": "2025-11-20",
+      "DueDate": "2025-12-20",
+      "ReturnDate": "2025-12-01"
+    }
+  ]
+}
+
